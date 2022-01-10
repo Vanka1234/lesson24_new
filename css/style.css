@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-top{
+    justify-content: space-between;
+    display: flex;
+    height:100px;
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.header-form{
+    display: inline-block;
+}
+
+.country{
+    margin: 10px;
+    color: #616161;
+    text-decoration: none;
+    
+}
+
+.img-frame{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+
+
+}
+
+
+.items{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.currency{
+    margin-top: 10px;
+}
+.horvat{
+   
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    margin:30px;
+}
+
+.langs{
+    background: #6fe087;
+    color: #fff;
+    text-decoration: none;
+}
+.language{
+    margin-top:50px ;
+    text-align: center;
+    
+}
+.lang{
+    text-align: center;
+    color: #1f1f1f;
+    text-decoration: none;
+}
+.price{
+    margin-top:28px ;
+    text-align: center;
+    font-size: 15pt;
+
+}
+.social{
+    padding: 30px;
+}
+.number{
+    justify-content: space-between;
+    align-items:center;
+    color: #000000;
+    font-size: 16pt;   
+}
+.netw{
+    margin:15px;
+    width: 30px;
+    height: 30px;
+}
+.form{
+    display: inline-block;
+}
+.phone-logo{
+    margin-top:30px ;
+}
+.phone__logo{
+    width: 30px;
+    height: 40px;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    height: 490px;
+    background:
+    url("../img/horvat.png") center center no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 104px;
+
+}
+.intro-text{
+    color:white;
+    border: 1px solid white;
+    width: 250px;
+    height: 45px;
+    padding: 6px 20px;
+    border-radius: 2px;
+
+}
+.intro__inner{
+    margin-right: 800px;
+}
+.dollars{
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.intro__title{
+    font-family: "Montserrat";
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+
+}
+.intro-btn{
+    text-decoration: none;
+    background: rgba(176, 196, 222, 0.438);
+    color: rgb(49, 49, 49);
+    font-size: 20pt;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+}
+.about{
+    width: 100%;
+    background-color:  #f0f0f0;
+    padding-top: 30px;
+}
+.about__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Monsterrat',sans-serif;
+    justify-content: space-between;
+}
+.about__top{
+    max-width: 520px;
+
+
+}
+.about__title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+.about__text{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #777777;
+    margin: 20px 0;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 520px;
+    justify-content: space-between;
+
+}
+.about__btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid;
+    color: #969696;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.about__list{
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+}
+.about__list li{
+    list-style-type: none;
+}
+.about__icon{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    left: -10px;
+
+
+}
+.about__btn:hover{
+    background-color:grey;
+    color:white;
+
+}
+.header-form{
+    display: inline-block;
+}
+.hotel__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 90px;
+}
+.hotel-title{
+    font-family: 'Monsterrat',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color:#232323;
+
+}
+.hline{
+    height: 1px;
+    width: 237px;
+    background: #c4c4c4;
+}
+
+.hotel__btn{
+    text-decoration: none;
+    padding: 15px 48px;
+    border: 1px solid;
+    color: #969696;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.hotel__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.hotel__card{
+    width: 32%;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
+    border:5px solid white;
+
+}
+
+.hotel__label{
+    position: absolute;
+    top: 28px;
+    left:0;
+    padding: 10px 15px;
+    background:rgba(0,0,0,0,0,35);
+    color:#fff;
+    z-index:2;
+}
+
+.hotel__content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 2;
+    text-align: center;
+}
+
+.hotel__text{
+    font-family: 'Monsterrat',sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.maistra__btn{
+    display: inline-block;
+    width: 240px;
+    height: 55px;
+}
+.tour__btn{
+    display: inline-block;
+    width: 240px;
+    height: 55px;
+
+}
+::placeholder{
+    color: black;
+}
+.tour-btn{
+    
+    background: #dd4053;
+    width: 60px;
+    height:60px;
+   
+}
+.maistra-btn{
+    background: #13ce5b;
+    width: 60px;
+    height:60px;
+}
+.hr{
+    margin-top: 30px;
+}
+.hotel__img{
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+}
+.arrow{
+    color: rgb(192, 3, 3);
+}
+.hotel-card{
+    background-color: rgb(248, 248, 248);
+    width: 400px;
+    height: 600px;
+}
+.hotel-img{
+    width: 400px;
+    height: 350px;
+}
+.baing{
+    font-family: 'Open Sans',sans-serif;
+    margin: 50px;
+    font-size: 45pt;
+}
+.tour__content{
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 90px;
+}
+.card-text {
+    color:rgb(82, 82, 82);
+    font-family: 'Monsterrat',sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    
+}
+.hotel-label{
+    position: absolute;
+    
+    padding: 10px 15px;
+    background:rgba(128, 128, 128, 0.301);
+    color:#fff;
+    z-index:2;
+}
+.hotel-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-body{
+    font-family: 'Open Sans',sans-serif;
+    color:gray;
+    margin: 10px;
+}
+hr{
+    color: lightgray;
+    margin: 10px;
+}
+.start{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 22pt;
+    color:#dd4053;
+    
+}
+.start-firts{
+    position: column;
+    text-align: right;
+}
+.start-text{
+    display: flex;
+    justify-content: space-between;
+}
+.gaing{
+    color: rgb(151, 151, 151);
+    font-size: 10pt;
+}
+.start-firts{
+    font-family: 'Open Sans',sans-serif;
+    color:rgb(70, 70, 70) ;
+}
+.hotel-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.forma-img{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    height: 490px;
+    background:
+    url("../img/gaing.png") center center no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 104px;
+}
+.forma{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.form-name{
+    width: 300px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.842) ;
+    border:white 1px solid;
+    border-radius:2px;
+    color: white;
+    margin:3px;
+
+}
+.for_name{
+    background-color:rgba(0, 0, 0, 0.267);
+    border:0.5px solid white;
+    border:white 1px solid;
+    border-radius:2px;
+     width: 300px;
+    height: 50px;
+    color: white;
+    margin:3px;
+}
+.phone{
+    background-color:rgba(0, 0, 0, 0.267);
+    border:0.5px solid white;
+    border:white 1px solid;
+    border-radius:2px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin:3px;
+
+}
+.form-btn{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin:3px;
+}
+.form-text{
+    width:626px;
+    height:200px;
+    margin-left: 100px;
+    
+}
+.form_text{
+    font-size: 40pt;
+    color: white;
+
+}
+.form__text{
+    font-size: 20pt;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.form-square{
+    background-color: rgba(255, 255, 255, 0.267);
+    width: 275px;                                                                  
+    color: white;
+    margin-left: 1200px;
+}
